@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Trustly Pay]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Trustly Pay(failed)">
+    <classes>
+      <class name="com.trustlypay.qa.testcases.DashBoardTest">
+        <methods>
+          <include name="testLastMonthDashBoard"/>
+          <include name="tearDown"/>
+          <include name="testLast30DashBoard"/>
+          <include name="testThisMonthDashBoard"/>
+          <include name="testYesterdayDashBoard"/>
+          <include name="testLast7DashBoard"/>
+          <include name="setUop"/>
+          <include name="testCustomDateDashBoard"/>
+          <include name="testTodayDashBoard"/>
+        </methods>
+      </class> <!-- com.trustlypay.qa.testcases.DashBoardTest -->
+    </classes>
+  </test> <!-- Trustly Pay(failed) -->
+</suite> <!-- Failed suite [Trustly Pay] -->
